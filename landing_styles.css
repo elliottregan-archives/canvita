@@ -1,0 +1,202 @@
+/* @group Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/* @end */
+
+html {
+  font-family: Oxygen;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+h2 {
+  font-size: 2em;
+  color: #f88600;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.4em;
+  margin-top: 10px;
+}
+
+em {
+  font-weight: bold;
+}
+
+p {
+  color: #525252;
+  margin: 10px 0;
+}
+
+.wrapper {
+  width: 960px;
+  margin: auto;
+  padding: 20px;
+}
+
+#circles {
+  display: block;
+  float: left;
+  margin: 0 40px;
+}
+
+input {
+  outline: none;
+}
+
+input[type="email"] {
+  padding: 8px 12px;
+  margin: 20px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #ababab;
+  font-size: 1.1em;
+  -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.23);
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.23);
+}
+
+input[type="submit"] {
+  padding: 8px 24px;
+  border: 1px solid #2f485c;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: #ffffff;
+  font-size: 1.1em;
+  text-shadow: 0 1px 02px #000000;
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.46);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.46);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.46);
+  background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%) #4a7091;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.17)), to(rgba(255, 255, 255, 0))) #4a7091;
+}
+
+input[type="submit"]:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.32)), to(rgba(255, 255, 255, 0)));
+  background-image: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+input[type="submit"]:active {
+  -moz-box-shadow: inset 0 1px 2px black;
+  -webkit-box-shadow: inset 0 1px 2px black;
+  box-shadow: inset 0 1px 2px black;
+}
+
+.member_card {
+  display: inline-block;
+  padding: 8px;
+  width: 498px;
+  margin: 20px 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid rgba(162, 162, 162, 0.78);
+  -moz-box-shadow: inset 0 1px 2px #ffffff, 0 1px 4px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: inset 0 1px 2px #ffffff, 0 1px 4px rgba(0, 0, 0, 0.36);
+  box-shadow: inset 0 1px 2px #ffffff, 0 1px 4px rgba(0, 0, 0, 0.36);
+  background-color: #fafafa;
+  position: relative;
+}
+
+.portrait {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  border: 1px solid #5f5f5f;
+}
+
+.portrait img {
+  position: absolute;
+  left: -30px;
+}
+
+.member_card h1 {
+  font-size: 1.5em;
+  margin-top: 40px;
+}
+
+.member_card h2 {
+  font-size: 1em;
+  color: #919191;
+  font-style: italic;
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+.view {
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #bbbbbb;
+  background: -moz-linear-gradient(90deg, #d7d7d7 0%, white 100%) #ffffff;
+  background: -webkit-gradient(linear, left bottom, left top, from(#d7d7d7), to(white)) #ffffff;
+  font-size: .8em;
+  color: #454545;
+  text-shadow: 0 1px 1px #ffffff;
+}
