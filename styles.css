@@ -679,4 +679,10 @@ img.quarter {
   padding: 4px;
 }
 
+footer {
+  padding: 10px;
+  width: 920px; height: 90px;
+  margin: auto;
+}
+
 /* @end */
