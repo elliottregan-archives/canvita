@@ -206,6 +206,7 @@ footer {
 	color: #737373;
 	text-indent: 1.1em;
 	margin-top: 1.2em;
+	text-decoration: underline;
 }
 
 footer a:hover {

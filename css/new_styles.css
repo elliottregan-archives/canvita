@@ -82,7 +82,7 @@ header h2.title {
 	color: #dddddd;
 	font: 200 1em/.5em Quicksand;
 	text-indent: 2px;
-	margin-top: 5px;
+	margin-top: 7px;
 }
 
 hgroup {
@@ -628,6 +628,10 @@ img.quarter {
   background: url(../img/linkedin_logo.png) no-repeat center center #ffffff;
 }
 
+.linkedin .face.back {
+	border-top: 4px solid #509EDD;
+}
+
 .tumblr .face.front {
   background-image: url(../img/t.png);
 }
@@ -647,14 +651,26 @@ img.quarter {
   background-size: 90%;
 }
 
+.instagram .face.back {
+	border-top: 4px solid #a26f52;
+}
+
 .runkeeper .face.front {
   background: url(../img/runkeeper_logo.png) no-repeat center center #ffffff;
   background-size: 90%;
 }
 
+.runkeeper .face.back {
+	border-top: 4px solid #0b60c4;
+}
+
 .foursquare .face.front {
   background: url(../img/foursquare_logo.png) no-repeat center center #ffffff;
   background-size: 90%;
+}
+
+.foursquare .face.back {
+  border-top: 4px solid #98e4fa;
 }
 
 /* @group Work & Experience */
@@ -699,6 +715,18 @@ img.quarter {
 #work_content li {
   list-style: outside;
   padding: 4px;
+}
+
+.caption {
+  position: absolute;
+  width: 250px;
+  bottom: 1px ;
+  background-color: rgba(22, 22, 22, 0.59);
+  color: #ffffff;
+  padding: 5px;
+  margin-right: 8px;
+  margin-left: 8px;
+  line-height: 1.2em;
 }
 
 /* @end */
