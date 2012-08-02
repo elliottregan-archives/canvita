@@ -177,8 +177,8 @@ nav h2 {
   -moz-box-shadow: 0 1px 2px black;
   -webkit-box-shadow: 0 1px 2px black;
   box-shadow: 0 1px 2px black;
-  background: -moz-linear-gradient(90deg, rgba(215, 215, 215, 0.68) 0%, rgba(228, 228, 228, 0) 100%), url(img/tiny_grid.png) #e6e6e6;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(215, 215, 215, 0.68)), to(rgba(228, 228, 228, 0))), url(img/tiny_grid.png) #e6e6e6;
+  background: -moz-linear-gradient(90deg, rgba(215, 215, 215, 0.68) 0%, rgba(228, 228, 228, 0) 100%), url(../img/tiny_grid.png) #e6e6e6;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(215, 215, 215, 0.68)), to(rgba(228, 228, 228, 0))), url(../img/tiny_grid.png) #e6e6e6;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.48);
   border: 1px solid #e1e1e1;
   border-top-color: #ffffff;
@@ -210,7 +210,7 @@ section#accomplishment {
   border: 8px solid #202020;
   height: 640px;
   border-right: none;
-  background-image: url(img/low_contrast_linen.png);
+  background-image: url(../img/low_contrast_linen.png);
   overflow: hidden;
 }
 
@@ -249,7 +249,7 @@ section#accomplishment {
 }
 
 #creation .column {
-  background: url(img/e_regan/creation.png) no-repeat 50%, url(img/low_contrast_linen.png) #6f6f6f;
+  background: url(../img/e_regan/creation.png) no-repeat 50%, url(../img/low_contrast_linen.png) #6f6f6f;
   background-size: 100%;
 }
 
@@ -258,7 +258,7 @@ h2.active {
   color: #000000;
   top: -4px;
   background: -moz-linear-gradient(90deg, rgba(157, 157, 157, 0.68) 0%, rgba(208, 208, 208, 0.56) 100%), url(img/tiny_grid.png) #e6e6e6;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(157, 157, 157, 0.68)), to(rgba(208, 208, 208, 0.56))), url(img/tiny_grid.png) #e6e6e6;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(157, 157, 157, 0.68)), to(rgba(208, 208, 208, 0.56))), url(../img/tiny_grid.png) #e6e6e6;
 }
 
 .content {
@@ -352,30 +352,30 @@ ul.row {
 }
 
 .card.fb .face.front {
-  background: url(img/f_logo.png) no-repeat center center;
+  background: url(../img/f_logo.png) no-repeat center center;
 }
 
 .card.twitter .face.front {
-  background: url(img/t_logo.png) no-repeat center center;
+  background: url(../img/t_logo.png) no-repeat center center;
 }
 
 .card.yt .face.front {
-  background: url(img/yt_logo.png) no-repeat center center #eb4040;
+  background: url(../img/yt_logo.png) no-repeat center center #eb4040;
   background-size: 90%;
 }
 
 .card.be .face.front {
-  background: url(img/be_logo.png) no-repeat center center;
+  background: url(../img/be_logo.png) no-repeat center center;
   background-size: 100%;
 }
 
 .card.github .face.front {
-  background: url(img/git_logo.png) no-repeat center center #ffffff;
+  background: url(../img/git_logo.png) no-repeat center center #ffffff;
   background-size: 90%;
 }
 
 .card.flickr .face.front {
-  background: url(img/flickr_logo.png) no-repeat center center #ffffff;
+  background: url(../img/flickr_logo.png) no-repeat center center #ffffff;
   background-size: 90%;
 }
 
@@ -496,7 +496,7 @@ p.tweet {
 /* @group Github Widget */
 
 section#social .card.github .face.front {
-  background-image: url(img/octocat.png);
+  background-image: url(../img/octocat.png);
 }
 
 .box dt {
@@ -601,7 +601,7 @@ img.quarter {
   -moz-box-shadow: inset 0 1px 50px rgba(231, 186, 124, 0.15), inset 0 0 1px #999999;
   -webkit-box-shadow: inset 0 1px 50px rgba(231, 186, 124, 0.15), inset 0 0 1px #999999;
   box-shadow: inset 0 1px 50px rgba(231, 186, 124, 0.15), inset 0 0 1px #999999;
-  background: url(img/book.svg), url('img/large_leather.png') whitesmoke;
+  background: url(../img/book.svg), url('../img/large_leather.png') whitesmoke;
 }
 
 .books .face.back {
@@ -616,7 +616,7 @@ img.quarter {
 }
 
 .g_plus .face.front {
-  background: url(img/gplus_logo.png) rgba(255, 255, 255, 0) no-repeat center center;
+  background: url(../img/gplus_logo.png) rgba(255, 255, 255, 0) no-repeat center center;
   background-size: 90%;
 }
 
@@ -625,11 +625,11 @@ img.quarter {
 }
 
 .linkedin .face.front {
-  background: url(img/linkedin_logo.png) no-repeat center center #ffffff;
+  background: url(../img/linkedin_logo.png) no-repeat center center #ffffff;
 }
 
 .tumblr .face.front {
-  background-image: url(img/t.png);
+  background-image: url(../img/t.png);
 }
 
 .tumblr .face.back {
@@ -637,23 +637,23 @@ img.quarter {
 }
 
 .vimeo .face.front {
-  background-image: url(img/vimeo_logo_white_on_blue.png) no-repeat center center;
+  background-image: url(../img/vimeo_logo_white_on_blue.png) no-repeat center center;
   background-size: 90%;
   
 }
 
 .instagram .face.front {
-  background: url(img/instagram_logo.png) rgba(255, 255, 255, 0) no-repeat center center;
+  background: url(../img/instagram_logo.png) rgba(255, 255, 255, 0) no-repeat center center;
   background-size: 90%;
 }
 
 .runkeeper .face.front {
-  background: url(img/runkeeper_logo.png) no-repeat center center #ffffff;
+  background: url(../img/runkeeper_logo.png) no-repeat center center #ffffff;
   background-size: 90%;
 }
 
 .foursquare .face.front {
-  background: url(img/foursquare_logo.png) no-repeat center center #ffffff;
+  background: url(../img/foursquare_logo.png) no-repeat center center #ffffff;
   background-size: 90%;
 }
 
