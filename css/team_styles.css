@@ -1,7 +1,7 @@
 html {
   font-family: Quicksand, sans-serif;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(89, 89, 89, 0.27)), to(rgba(255, 255, 255, 0.27))), url(img/perforated_white_leather.png);
-  background-image: -moz-linear-gradient(90deg, rgba(89, 89, 89, 0.27) 0%, rgba(255, 255, 255, 0.27) 100%), url(img/perforated_white_leather.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(89, 89, 89, 0.27)), to(rgba(255, 255, 255, 0.27))), url(../img/subtle_dots.png);
+  background-image: -moz-linear-gradient(90deg, rgba(89, 89, 89, 0.27) 0%, rgba(255, 255, 255, 0.27) 100%), url(../img/subtle_dots.png);
   height: 100%;
 }
 
