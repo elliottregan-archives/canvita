@@ -47,12 +47,18 @@ li.member_card {
   margin: 0;
   margin-right: 10px;
   float: left;
-  background: url(img/e_regan/portrait.jpg) #b6b6b6;
   background-size: cover;
   border: 1px solid #555555;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+  background-color: #616161;
+}
+
+.portrait img {
+  height: 100%;
 }
 
 .details {
@@ -91,3 +97,5 @@ li.member_card {
   color: #454545;
   text-shadow: 0 1px 1px #ffffff;
 }
+
+.
