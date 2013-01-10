@@ -14,11 +14,4 @@ $(document).ready( function() {
     $("#info_content").show();
   })
 
-  $("#work").click(function() {
-    $("#work_content, #overlay").fadeIn()
-  })
-
-  $(".close").click(function() {
-    $("#overlay, #work_content").fadeOut()
-  })
 });
